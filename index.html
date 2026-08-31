@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VL Maintenance | Manutenção Industrial Especializada em Curitiba</title>
+  <meta name="description" content="VL Maintenance oferece manutenção industrial especializada em Curitiba-PR: CNC Siemens e Fanuc, inversores de frequência, motores elétricos, sistemas de medição e PLCs industriais." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-vl">VL</span><span class="logo-maintenance">Maintenance</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+        <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+      <a href="#contato" class="btn btn-nav">Solicitar Orçamento</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Manutenção Industrial · Curitiba, PR
+      </div>
+      <h1 class="hero-title">
+        Precisão e Expertise em<br />
+        <span class="gradient-text">Manutenção Industrial</span>
+      </h1>
+      <p class="hero-subtitle">
+        Especialistas em CNC Siemens &amp; Fanuc, inversores de frequência, motores elétricos
+        e sistemas de automação industrial. Sua máquina volta a produzir com eficiência máxima.
+      </p>
+      <div class="hero-cta">
+        <a href="#contato" class="btn btn-primary" id="btn-orcamento">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.5 19.79 19.79 0 01.14 3.07 2 2 0 012.11 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l.45-.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Solicitar Orçamento
+        </a>
+        <a href="#servicos" class="btn btn-ghost" id="btn-servicos">
+          Ver Serviços
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-target="10">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Anos de Experiência</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="200">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Máquinas Atendidas</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Satisfação dos Clientes</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Role para ver mais</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section id="sobre" class="section sobre-section">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-visual">
+          <div class="sobre-card-main">
+            <div class="sobre-icon-big">⚙️</div>
+            <div class="sobre-expertise-tags">
+              <span class="tag tag-siemens">Siemens</span>
+              <span class="tag tag-fanuc">Fanuc</span>
+              <span class="tag tag-plc">PLC</span>
+              <span class="tag tag-cnc">CNC</span>
+              <span class="tag tag-vfd">Inversores VFD</span>
+              <span class="tag tag-motor">Motores Elétricos</span>
+            </div>
+          </div>
+          <div class="sobre-card-floating card-float-1">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00d4ff" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <div>
+              <div class="float-title">Certificado</div>
+              <div class="float-sub">Técnico Especializado</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="sobre-content">
+          <div class="section-label">Sobre a Empresa</div>
+          <h2 class="section-title">VL Maintenance —<br /><span class="gradient-text">Excelência em Automação</span></h2>
+          <p class="sobre-text">
+            Somos uma empresa de manutenção industrial localizada na <strong>Cidade Industrial de Curitiba</strong>, 
+            com profundo conhecimento técnico em sistemas de automação, CNC e acionamentos elétricos.
+          </p>
+          <p class="sobre-text">
+            Atendemos indústrias de médio e grande porte que precisam de <strong>diagnóstico preciso e solução rápida</strong>
+            para seus equipamentos, minimizando paradas de produção e reduzindo custos operacionais.
+          </p>
+          <div class="sobre-pilares">
+            <div class="pilar">
+              <div class="pilar-icon">🎯</div>
+              <div>
+                <div class="pilar-title">Diagnóstico Preciso</div>
+                <div class="pilar-text">Identificamos a causa raiz do problema, não apenas os sintomas.</div>
+              </div>
+            </div>
+            <div class="pilar">
+              <div class="pilar-icon">⚡</div>
+              <div>
+                <div class="pilar-title">Resposta Ágil</div>
+                <div class="pilar-text">Sabemos que cada hora parada é prejuízo para sua produção.</div>
+              </div>
+            </div>
+            <div class="pilar">
+              <div class="pilar-icon">🔒</div>
+              <div>
+                <div class="pilar-title">Garantia de Serviço</div>
+                <div class="pilar-text">Trabalhamos com responsabilidade técnica e transparência total.</div>
+              </div>
+            </div>
+          </div>
+          <div class="sobre-info">
+            <div class="info-chip">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Cidade Industrial de Curitiba, PR
+            </div>
+            <div class="info-chip">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              CNPJ 68.870.382/0001-48
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section id="servicos" class="section servicos-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">O Que Fazemos</div>
+        <h2 class="section-title">Nossos <span class="gradient-text">Serviços Especializados</span></h2>
+        <p class="section-desc">Cobertura completa em manutenção industrial, do diagnóstico à entrega com garantia.</p>
+      </div>
+
+      <div class="servicos-grid">
+
+        <div class="servico-card" id="card-cnc-siemens">
+          <div class="servico-icon-wrap siemens-color">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="servico-title">CNC Siemens</h3>
+          <p class="servico-desc">Manutenção, parametrização e programação de comandos CNC Siemens (Sinumerik 808D, 828D, 840D). Diagnóstico de alarmes, backup/restore de parâmetros e substituição de componentes.</p>
+          <ul class="servico-list">
+            <li>Sinumerik 808D / 828D / 840D</li>
+            <li>Diagnóstico e reset de alarmes</li>
+            <li>Parametrização de eixos e ferramentas</li>
+            <li>Backup e restauração de dados</li>
+          </ul>
+        </div>
+
+        <div class="servico-card" id="card-cnc-fanuc">
+          <div class="servico-icon-wrap fanuc-color">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3 class="servico-title">CNC Fanuc</h3>
+          <p class="servico-desc">Manutenção e parametrização de comandos CNC Fanuc para tornos, fresadoras e centros de usinagem. Diagnóstico de alarmes, backup/restore de parâmetros e manutenção de drives e servomotores.</p>
+          <ul class="servico-list">
+            <li>Fanuc 0i / 30i / 31i / 32i</li>
+            <li>Diagnóstico e reset de alarmes</li>
+            <li>Parametrização de eixos e ferramentas</li>
+            <li>Backup e restauração de dados</li>
+          </ul>
+        </div>
+
+        <div class="servico-card" id="card-plc">
+          <div class="servico-icon-wrap plc-color">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/><circle cx="18" cy="9" r="1" fill="currentColor"/><circle cx="18" cy="12" r="1" fill="currentColor"/></svg>
+          </div>
+          <h3 class="servico-title">PLC Siemens &amp; Fanuc</h3>
+          <p class="servico-desc">Programação e manutenção de CLPs Siemens S7 (300/400/1200/1500) e PMC Fanuc. Desenvolvimento de lógicas de controle, HMI e integração com redes industriais.</p>
+          <ul class="servico-list">
+            <li>Siemens S7-300 / 400 / 1200 / 1500</li>
+            <li>PMC Fanuc (ladder)</li>
+            <li>Programação TIA Portal / STEP 7</li>
+            <li>SCADA, HMI e redes Profibus/Profinet</li>
+          </ul>
+        </div>
+
+        <div class="servico-card" id="card-inversor">
+          <div class="servico-icon-wrap inversor-color">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3 class="servico-title">Inversores de Frequência</h3>
+          <p class="servico-desc">Instalação, configuração e manutenção de inversores de frequência (VFD) das principais marcas: Siemens Sinamics, WEG, ABB, Danfoss, Schneider. Otimização de eficiência energética.</p>
+          <ul class="servico-list">
+            <li>Siemens Sinamics G120 / S120</li>
+            <li>WEG CFW500 / CFW700 / CFW11</li>
+            <li>ABB ACS550 / ACS880</li>
+            <li>Parametrização e comissionamento</li>
+          </ul>
+        </div>
+
+        <div class="servico-card" id="card-motor">
+          <div class="servico-icon-wrap motor-color">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+          </div>
+          <h3 class="servico-title">Motores Elétricos</h3>
+          <p class="servico-desc">Diagnóstico e manutenção de motores elétricos de indução, servomotores AC/DC e motores de passo. Análise de vibrações, termografia e avaliação de isolamento.</p>
+          <ul class="servico-list">
+            <li>Motores de indução trifásicos</li>
+            <li>Servomotores Siemens e Fanuc</li>
+            <li>Análise de vibração e termografia</li>
+            <li>Teste de isolamento (megôhmetro)</li>
+          </ul>
+        </div>
+
+        <div class="servico-card" id="card-medicao">
+          <div class="servico-icon-wrap medicao-color">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3 class="servico-title">Sistemas de Medição</h3>
+          <p class="servico-desc">Calibração, instalação e manutenção de sistemas de medição industriais: encoders, resolver, réguas lineares e sistemas de visão. Garantia de precisão dimensional nas suas máquinas.</p>
+          <ul class="servico-list">
+            <li>Encoders absolutos e incrementais</li>
+            <li>Réguas lineares e rotativas</li>
+            <li>Sistemas resolver e Hiperface</li>
+            <li>Calibração e verificação de precisão</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DIFERENCIAIS ===== -->
+  <section id="diferenciais" class="section diferenciais-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Por Que Nos Escolher</div>
+        <h2 class="section-title">Nossos <span class="gradient-text">Diferenciais</span></h2>
+      </div>
+      <div class="diferenciais-grid">
+        <div class="diferencial-item" id="dif-1">
+          <div class="dif-number">01</div>
+          <div class="dif-content">
+            <h3>Diagnóstico no Local</h3>
+            <p>Atendemos diretamente na sua planta industrial, sem necessidade de remoção do equipamento, reduzindo tempo de parada.</p>
+          </div>
+        </div>
+        <div class="diferencial-item" id="dif-2">
+          <div class="dif-number">02</div>
+          <div class="dif-content">
+            <h3>Laudo Técnico Detalhado</h3>
+            <p>Emitimos relatório técnico completo de cada intervenção, com descrição do problema, solução aplicada e recomendações preventivas.</p>
+          </div>
+        </div>
+        <div class="diferencial-item" id="dif-3">
+          <div class="dif-number">03</div>
+          <div class="dif-content">
+            <h3>Manutenção Preventiva</h3>
+            <p>Criamos planos de manutenção preventiva personalizados para reduzir falhas inesperadas e prolongar a vida útil dos equipamentos.</p>
+          </div>
+        </div>
+        <div class="diferencial-item" id="dif-4">
+          <div class="dif-number">04</div>
+          <div class="dif-content">
+            <h3>Retrofit de Inversores e I/O</h3>
+            <p>Realizamos retrofit e modernização de inversores de frequência e módulos de entrada/saída, substituindo componentes obsoletos sem a necessidade de trocar toda a máquina.</p>
+          </div>
+        </div>
+        <div class="diferencial-item" id="dif-5">
+          <div class="dif-number">05</div>
+          <div class="dif-content">
+            <h3>Transparência Total</h3>
+            <p>Orçamento detalhado antes do serviço, sem surpresas. Emitimos nota fiscal e oferecemos garantia em todos os serviços realizados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section id="contato" class="section contato-section">
+    <div class="container">
+      <div class="contato-grid">
+        <div class="contato-info">
+          <div class="section-label">Entre em Contato</div>
+          <h2 class="section-title">Vamos Resolver o<br /><span class="gradient-text">Seu Problema</span></h2>
+          <p class="contato-desc">Descreva o problema da sua máquina e entraremos em contato rapidamente com diagnóstico e orçamento.</p>
+
+          <div class="contato-cards">
+            <a href="https://wa.me/5541996447931" id="whatsapp-link" target="_blank" rel="noopener" class="contato-card contato-whatsapp">
+              <div class="contato-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </div>
+              <div>
+                <div class="contato-card-title">WhatsApp</div>
+                <div class="contato-card-value">(41) 99644-7931</div>
+              </div>
+            </a>
+
+            <a href="mailto:vinilobo.eng@gmail.com" id="email-link" class="contato-card contato-email">
+              <div class="contato-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <div class="contato-card-title">E-mail</div>
+                <div class="contato-card-value">vinilobo.eng@gmail.com</div>
+              </div>
+            </a>
+
+            <div class="contato-card contato-local" id="card-local">
+              <div class="contato-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="contato-card-title">Localização</div>
+                <div class="contato-card-value">Cidade Industrial de Curitiba, PR</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contato-form-wrap">
+          <form class="contato-form" id="contato-form">
+            <div class="form-group">
+              <label for="nome">Nome / Empresa</label>
+              <input type="text" id="nome" name="nome" placeholder="Sua empresa ou nome" required />
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone / WhatsApp</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(41) 9 0000-0000" required />
+            </div>
+            <div class="form-group">
+              <label for="maquina">Equipamento / Máquina</label>
+              <input type="text" id="maquina" name="maquina" placeholder="Ex: Torno CNC Romi Centur com Fanuc 0i" />
+            </div>
+            <div class="form-group">
+              <label for="descricao">Descrição do Problema</label>
+              <textarea id="descricao" name="descricao" rows="4" placeholder="Descreva o problema ou alarme apresentado na máquina..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="btn-enviar">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Enviar via WhatsApp
+            </button>
+            <p class="form-note">Ao enviar, você será redirecionado ao WhatsApp com a mensagem pré-preenchida.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="logo-vl">VL</span><span class="logo-maintenance">Maintenance</span>
+          </div>
+          <p class="footer-tagline">Excelência em manutenção industrial.<br />Sua produção não pode parar.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Serviços</h4>
+            <ul>
+              <li><a href="#card-cnc-siemens">CNC Siemens</a></li>
+              <li><a href="#card-cnc-fanuc">CNC Fanuc</a></li>
+              <li><a href="#card-plc">PLC Industrial</a></li>
+              <li><a href="#card-inversor">Inversores VFD</a></li>
+              <li><a href="#card-motor">Motores Elétricos</a></li>
+              <li><a href="#card-medicao">Sistemas de Medição</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contato</h4>
+            <ul>
+              <li><a href="https://wa.me/5541996447931" target="_blank" rel="noopener">WhatsApp</a></li>
+              <li><a href="mailto:vinilobo.eng@gmail.com">E-mail</a></li>
+              <li><span>Curitiba, PR</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 VL Maintenance. CNPJ 68.870.382/0001-48 — Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
